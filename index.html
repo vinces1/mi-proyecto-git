@@ -1,15 +1,50 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>El sitio de Brigitte</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio | Brigitte Vinces</title>
     <style>
-        body { font-family: sans-serif; text-align: center; padding: 50px; background-color: #f4f4f4; }
-        h1 { color: #333; }
-        p { color: #666; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; margin: 0; color: #333; background-color: #fff; }
+        header { background: #24292e; color: white; padding: 2rem; text-align: center; }
+        .container { max-width: 800px; margin: auto; padding: 2rem; }
+        .project-card { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; margin-bottom: 1rem; background: #fafafa; }
+        h2 { color: #0366d6; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        footer { text-align: center; padding: 2rem; font-size: 0.9rem; color: #666; }
+        .badge { background: #e1ecf4; color: #39739d; padding: 4px 8px; border-radius: 4px; font-size: 0.8rem; }
     </style>
 </head>
 <body>
-    <h1>¡Hola Mundo! Soy Brigitte Vinces</h1>
-    <p>Este es mi primer sitio web desplegado con GitHub Pages.</p>
+
+    <header>
+        <h1>Brigitte Vinces</h1>
+        <p>Desarrolladora Web en Formación | Git & GitHub Enthusiast</p>
+    </header>
+
+    <div class="container">
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>¡Hola! Soy Brigitte. Estoy aprendiendo a dominar el mundo del desarrollo web usando herramientas como la terminal de Mac, Git y GitHub.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Mis Proyectos</h2>
+            <div class="project-card">
+                <h3>🚀 Mi primer repositorio</h3>
+                <p>Este es el proyecto donde aprendí a usar ramas, merges y GitHub Pages.</p>
+                <span class="badge">Git</span> <span class="badge">HTML</span> <span class="badge">Terminal</span>
+            </div>
+            </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <p>Puedes encontrarme en GitHub como: <strong>vincesdev</strong></p>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 - Creado con ❤️ por Brigitte Vinces</p>
+    </footer>
+
 </body>
 </html>
