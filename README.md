@@ -16,3 +16,5 @@ Este es mi primer repositorio donde aprendí a usar Git, GitHub y llaves SSH.
 ![Mi Gráfico de Git](./screenshot.png)
 
 * Esta es una mejora que estoy haciendo en una rama separada
+
+* Esta es una mejora que estoy haciendo en la segunda rama separada 
