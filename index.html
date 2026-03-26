@@ -6,7 +6,7 @@
     <title>Portafolio | Brigitte Vinces</title>
     <style>
     :root {
-    --primary: #0366d6; /* Azul GitHub */   
+    --primary: #0fc5ee; /* Azul GitHub */   
     --dark: #24292e;    /* Gris oscuro GitHub */
     --light: #f6f8fa;   /* Gris muy claro GitHub */
     --text: #2f363d;
@@ -129,7 +129,7 @@ button:hover { background: #0256b9; }
         <section id="contact">
             <h2>Contacto</h2>
             <p>¡Conectemos! Estoy compartiendo mi progreso como desarrolladora aquí:</p>
-         <a href="https://www.linkedin.com/in/TU-USUARIO-AQUI" target="_blank" style="background-color: #0077b5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
+         <a href="https://www.linkedin.com/in/brigitte-gavilan-vinces-a9a502249/" target="_blank" style="background-color: #0077b5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; font-weight: bold; display: inline-block;">
             Mi LinkedIn 🔗
          </a>
         </section>
@@ -143,6 +143,11 @@ button:hover { background: #0256b9; }
     function saludar() {
         alert("¡Hola Brigitte! Estás ejecutando tu primer código JavaScript. 🚀");
         console.log("El botón fue presionado con éxito");
+    }
+
+    function cambiarModo() {
+        const body = document.body;
+        body.classList.toggle("modo-oscuro");
     }
     </script>
 
